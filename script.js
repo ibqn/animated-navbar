@@ -1,4 +1,6 @@
-(function() {
+import("jquery").then(async $ => {
+  // your code that uses jQuery
+
   $(document).ready(function() {
     // Your code here.
   });
@@ -11,4 +13,4 @@
       $("nav").removeClass("black");
     }
   });
-})();
+});
