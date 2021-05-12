@@ -5,19 +5,15 @@
   "repository": "ibqn/animated-navbar",
   "main": "index.html",
   "scripts": {
-    "start": "concurrently --names \"SASS,WATCH,SERVE\" --prefix-colors \"bgBlue.bold,bgMagenta.bold,bgGreen.bold\" \"npm run sass\" \"npm run sass:watch\" \"npm run serve\"",
-    "serve": "lite-server",
-    "sass": "node-sass style.sass --output ./ --indent-width 2 --output-style expanded --indent-type space --source-map true",
-    "sass:watch": "npm run sass -- --watch"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "ibqn",
   "license": "ISC",
-  "dependencies": {
-    "prettier": "^2.3.0"
-  },
   "devDependencies": {
-    "concurrently": "^6.1.0",
-    "lite-server": "^2.6.1",
-    "node-sass": "^6.0.0"
+    "prettier": "^2.3.0",
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "jquery": "^3.6.0",
+    "parcel": "^2.0.0-beta.2"
   }
 }
