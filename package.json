@@ -5,8 +5,7 @@
   "repository": "ibqn/animated-navbar",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel index.html"
   },
   "author": "ibqn",
   "license": "ISC",
