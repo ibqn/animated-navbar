@@ -1,16 +1,16 @@
-import("jquery").then(async $ => {
+import('jquery').then(async ($) => {
   // your code that uses jQuery
 
-  $(document).ready(function() {
+  $(document).ready(() => {
     // Your code here.
-  });
+  })
 
-  $(window).on("scroll", function() {
-    console.log("scroll");
+  $(window).on('scroll', () => {
+    console.log('scroll')
     if ($(window).scrollTop()) {
-      $("nav").addClass("black");
+      $('nav').addClass('black')
     } else {
-      $("nav").removeClass("black");
+      $('nav').removeClass('black')
     }
-  });
-});
+  })
+})

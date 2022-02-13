@@ -3,16 +3,15 @@
   "version": "1.0.0",
   "description": "animated top menu",
   "repository": "ibqn/animated-navbar",
-  "main": "index.html",
+  "main": "script.js",
   "scripts": {
     "start": "parcel index.html"
   },
   "author": "ibqn",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "^2.3.0",
-    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "@parcel/transformer-sass": "^2.3.1",
     "jquery": "^3.6.0",
-    "parcel": "^2.0.0-beta.2"
+    "parcel": "^2.3.1"
   }
 }
